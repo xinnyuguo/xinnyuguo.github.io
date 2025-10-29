@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://xinnyuguo.github.io/sitemap.xml
