@@ -16,12 +16,11 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-I'm **Xinyu Guo**, a third-year Ph.D. student in Computer Science at the University of Arizona, advised by Prof. <a href="https://surdeanu.cs.arizona.edu/mihai/">Mihai Surdeanu</a> in the <a href="https://clulab.org/">CLU Lab</a>. Before that, I received my B.E. in Computer Science from Shandong University in 2023.
+I'm **Xinyu Guo**, a third-year Ph.D. student in Computer Science at the University of Arizona. I am fortunate to be advised by Prof. <a href="https://surdeanu.cs.arizona.edu/mihai/">Mihai Surdeanu</a> in the <a href="https://clulab.org/">CLU Lab</a>. Before that, I received my B.E. in Computer Science from Shandong University in 2023.
 
-My research focuses on **fine-grained supervision for LLM reasoning**. Outcome-level signals tell a model *whether* it reasoned well, but not *where*. I work on making this supervision fine-grained along three directions:
+My research focuses on **fine-grained supervision for LLM reasoning**. Outcome-level signals tell a model *whether* it reasoned well, but not *where*. I work on making this supervision fine-grained along two directions:
 
-- **RL for reasoning quality**: training LLMs to produce reasoning that is accurate, concise, and aligned with human understanding, while keeping proxy rewards from being hacked ([CogRE](https://arxiv.org/abs/2510.06198), [Rubric Dropout](https://arxiv.org/abs/2608.11669)).
-- **Fine-grained credit assignment**: assigning credit to the specific phrases, tokens, and criteria responsible for a good response, using signals that are cheap to obtain, such as rewards derived from the model's own correct predictions or rubric-level scores that standard training discards (Hit@Dict, DVE).
+- **RL for reasoning quality**: training LLMs to produce reasoning that is accurate, concise, and aligned with human understanding. A key focus is **fine-grained credit assignment**: assigning credit to the specific phrases, tokens, and criteria responsible for a good response, using signals that are cheap to obtain, such as rewards derived from the model's own correct predictions or rubric-level scores that standard training discards. I also study how to keep these proxy rewards from being hacked ([CogRE](https://arxiv.org/abs/2510.06198), DVE, [Rubric Dropout](https://arxiv.org/abs/2608.11669)).
 - **Mechanisms of reasoning**: looking inside LLMs to find how concepts and their logical structure support reasoning, by aligning sparse autoencoder features with concepts and taxonomies ([AlignSAE](https://arxiv.org/abs/2512.02004), TaxoSAE).
 
 📄 [CV](/files/CV.pdf)
@@ -33,7 +32,7 @@ My research focuses on **fine-grained supervision for LLM reasoning**. Outcome-l
 
 # 📝 Publications
 
-## RL for Reasoning & Credit Assignment
+## RL for Reasoning Quality
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Main</div><img src='images/cogre.png' alt="CogRE" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
