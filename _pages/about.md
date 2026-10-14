@@ -34,7 +34,7 @@ My research focuses on **fine-grained supervision for LLM reasoning**. Outcome-l
 
 ## RL for Reasoning Quality
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Main</div><img src='images/cogre.png' alt="CogRE" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Main</div><img src='images/cogre_fig1.png' alt="CogRE" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [The Answer Lies Within: Self-Derived Rewards Enable Explainable Relation Extraction](https://arxiv.org/abs/2510.06198)
