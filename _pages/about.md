@@ -30,6 +30,8 @@ My research focuses on **fine-grained supervision for LLM reasoning**. Outcome-l
 - *2026.08:* &nbsp;🎉 "AlignSAE: Concept-Aligned Sparse Autoencoders" is accepted to **TMLR**!
 - *2026.08:* "Rubric Dropout: A Simple Way to Mitigate Reward Hacking in Rubric-as-Reward RL" is released on [arXiv](https://arxiv.org/abs/2608.11669).
 - *2026.06:* &nbsp;🏆 I received the [Galileo Circle Scholarship](https://lpl.arizona.edu/graduate/awards/galileo/2024) from the University of Arizona!
+- *2025.09:* &nbsp;🏆 I received the Science Graduate College Fellowship from the University of Arizona!
+- *2024.09:* &nbsp;🏆 I received the Science Graduate College Fellowship from the University of Arizona!
 
 # 📝 Publications
 
@@ -120,6 +122,7 @@ Minglai Yang, **Xinyu Guo**, Zhengliang Shi, Jinhe Bi, Steven Bethard, Mihai Sur
 
 # 🎖 Honors and Awards
 - *2026:* [Galileo Circle Scholarship](https://lpl.arizona.edu/graduate/awards/galileo/2024), University of Arizona
+- *2024, 2025:* Science Graduate College Fellowship, University of Arizona
 - *2022:* Academic Scholarship, Shandong University
 - *2020, 2021, 2022:* Entrepreneurial Practice Award, Shandong University
 - *2020:* Merit Award, 6th "Internet+" Innovation and Entrepreneurship Competition
