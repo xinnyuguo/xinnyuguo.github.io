@@ -26,11 +26,18 @@ My research focuses on **fine-grained supervision for LLM reasoning**. Outcome-l
 📄 [CV](/files/CV.pdf)
 
 # 🔥 News
+- *2026.09:* &nbsp;🎉 "Dr. DocBench: A Comprehensive Benchmark for Expert-Level and Difficult Document Parsing" is accepted to the **LCFM Workshop @ NeurIPS 2026**! [[OpenReview](https://openreview.net/forum?id=D0drMyVKYI)]
 - *2026.08:* &nbsp;🎉 "The Answer Lies Within: Self-Derived Rewards Enable Explainable Relation Extraction" (CogRE) is accepted to the **EMNLP 2026 Main Conference**!
 - *2026.08:* &nbsp;🎉 "AlignSAE: Concept-Aligned Sparse Autoencoders" is accepted to **TMLR**!
 - *2026.08:* "Rubric Dropout: A Simple Way to Mitigate Reward Hacking in Rubric-as-Reward RL" is released on [arXiv](https://arxiv.org/abs/2608.11669).
 - *2026.06:* &nbsp;🏆 I received the [Galileo Circle Scholarship](https://lpl.arizona.edu/graduate/awards/galileo/2024) from the University of Arizona!
+- *2026.05:* "Dr. DocBench: A Comprehensive Benchmark for Expert-Level and Difficult Document Parsing" is released on [arXiv](https://arxiv.org/abs/2606.01393).
+- *2025.12:* "AlignSAE: Concept-Aligned Sparse Autoencoders" is released on [arXiv](https://arxiv.org/abs/2512.02004).
+- *2025.11:* "Deep Research: A Systematic Survey" is released on [arXiv](https://arxiv.org/abs/2512.02038).
+- *2025.10:* "The Answer Lies Within: Self-Derived Rewards Enable Explainable Relation Extraction" (CogRE) is released on [arXiv](https://arxiv.org/abs/2510.06198).
 - *2025.09:* &nbsp;🏆 I received the Science Graduate College Fellowship from the University of Arizona!
+- *2025.07:* &nbsp;🎉 "QUEST: Query Optimization in Unstructured Document Analysis" is accepted to **VLDB 2025**!
+- *2025.07:* "QUEST: Query Optimization in Unstructured Document Analysis" is released on [arXiv](https://arxiv.org/abs/2507.06515).
 - *2024.09:* &nbsp;🏆 I received the Science Graduate College Fellowship from the University of Arizona!
 
 # 📝 Publications
@@ -104,7 +111,7 @@ Minglai Yang, **Xinyu Guo**, Zhengliang Shi, Jinhe Bi, Steven Bethard, Mihai Sur
 
 - From Copying to Composition: How Language Models Develop In-Context Learning, Minglai Yang, **Xinyu Guo**, Renxiong Wang, Daniel Yue Zhang, Yunzhong He, *Under Review*
 - RecuritOpsBench: When Agents Fail to Ask for the Information They Need, Yunze Xiao, Jienan Chen, **Xinyu Guo**, Minghao Liu, Zihan Wang, Weihao Xuan, *Under Review*
-- [Deep Research: A Systematic Survey](https://doi.org/10.20944/preprints202511.2077.v1), Zhengliang Shi, Yiqun Chen, Haitao Li, et al. (incl. **Xinyu Guo**), *Preprints 2025*
+- [Deep Research: A Systematic Survey](https://arxiv.org/abs/2512.02038), Zhengliang Shi, Yiqun Chen, Haitao Li, et al. (incl. **Xinyu Guo**), *arXiv 2025*
 - [QUEST: Query Optimization in Unstructured Document Analysis](https://arxiv.org/abs/2507.06515), Zhaoze Sun, Qiyan Deng, Chengliang Chai, Kaisen Jin, **Xinyu Guo**, Han Han, Ye Yuan, Guoren Wang, Lei Cao, *VLDB 2025*
 - [Dr. DocBench: A Comprehensive Benchmark for Expert-Level and Difficult Document Parsing](https://arxiv.org/abs/2606.01393), Minglai Yang, Xinyan Velocity Yu, Pengyuan Li, **Xinyu Guo**, Zhenting Qi, et al., *NeurIPS 2026 Workshop LCFM*
 
@@ -117,6 +124,9 @@ Minglai Yang, **Xinyu Guo**, Zhengliang Shi, Jinhe Bi, Steven Bethard, Mihai Sur
 - *2019 - 2023:* B.E. in Computer Science, Shandong University, Qingdao, China.
 
 # 💻 Research Experience
+- *2026 Summer:* Research Scientist Intern, [Abaka AI](https://www.abaka.ai).
+  - Built RL environments and post-training data for tool-using customer-service agents on τ²-bench, and trained call agents with RL ([RetailServe blog](https://www.abaka.ai/blog/retail-agent-training-data-retailserve)).
+  - Contributed to [Dr. DocBench](https://arxiv.org/abs/2606.01393), a benchmark for expert-level document parsing, and helped organize the [DocInsights 2026](https://docinsights-workshop.github.io/docinsights-2026/) workshop at EMNLP 2026.
 - *2025.03 - now:* Research Assistant, CLU Lab, University of Arizona. Advisor: Prof. Mihai Surdeanu.
 - *2023.09 - 2024.06:* Undergraduate Research Assistant, CAES Research Center, Shandong University. Advisor: Prof. Zhongxing Yu.
 
@@ -126,6 +136,10 @@ Minglai Yang, **Xinyu Guo**, Zhengliang Shi, Jinhe Bi, Steven Bethard, Mihai Sur
 - *2022:* Academic Scholarship, Shandong University
 - *2020, 2021, 2022:* Entrepreneurial Practice Award, Shandong University
 - *2020:* Merit Award, 6th "Internet+" Innovation and Entrepreneurship Competition
+
+# 🤝 Grants and Services
+- **Co-PI**, ABC SEED Grant, Arizona Astrobiology Center
+- **Reviewer**, ACL Rolling Review (ARR) 2026
 
 <div style="display:none;">
     <p align="left">
