@@ -26,19 +26,17 @@ My research focuses on **fine-grained supervision for LLM reasoning**. Outcome-l
 📄 [CV](/files/CV.pdf)
 
 # 🔥 News
-- *2026.09:* &nbsp;🎉 "Dr. DocBench: A Comprehensive Benchmark for Expert-Level and Difficult Document Parsing" is accepted to the **LCFM Workshop @ NeurIPS 2026**! [[OpenReview](https://openreview.net/forum?id=D0drMyVKYI)]
 - *2026.08:* &nbsp;🎉 "The Answer Lies Within: Self-Derived Rewards Enable Explainable Relation Extraction" (CogRE) is accepted to the **EMNLP 2026 Main Conference**!
 - *2026.08:* &nbsp;🎉 "AlignSAE: Concept-Aligned Sparse Autoencoders" is accepted to **TMLR**!
 - *2026.08:* "Rubric Dropout: A Simple Way to Mitigate Reward Hacking in Rubric-as-Reward RL" is released on [arXiv](https://arxiv.org/abs/2608.11669).
 - *2026.06:* &nbsp;🏆 I received the [Galileo Circle Scholarship](https://lpl.arizona.edu/graduate/awards/galileo/2024) from the University of Arizona!
-- *2026.05:* "Dr. DocBench: A Comprehensive Benchmark for Expert-Level and Difficult Document Parsing" is released on [arXiv](https://arxiv.org/abs/2606.01393).
+- *2026.05:* "Dr. DocBench: A Comprehensive Benchmark for Expert-Level and Difficult Document Parsing" is released on [arXiv](https://arxiv.org/abs/2606.01393), and accepted to the **LCFM Workshop @ NeurIPS 2026**! [[OpenReview](https://openreview.net/forum?id=D0drMyVKYI)]
 - *2025.12:* "AlignSAE: Concept-Aligned Sparse Autoencoders" is released on [arXiv](https://arxiv.org/abs/2512.02004).
 - *2025.11:* "Deep Research: A Systematic Survey" is released on [arXiv](https://arxiv.org/abs/2512.02038).
 - *2025.10:* "The Answer Lies Within: Self-Derived Rewards Enable Explainable Relation Extraction" (CogRE) is released on [arXiv](https://arxiv.org/abs/2510.06198).
 - *2025.09:* &nbsp;🏆 I received the Science Graduate College Fellowship from the University of Arizona!
 - *2025.07:* &nbsp;🎉 "QUEST: Query Optimization in Unstructured Document Analysis" is accepted to **VLDB 2025**!
 - *2025.07:* "QUEST: Query Optimization in Unstructured Document Analysis" is released on [arXiv](https://arxiv.org/abs/2507.06515).
-- *2024.09:* &nbsp;🏆 I received the Science Graduate College Fellowship from the University of Arizona!
 
 # 📝 Publications
 
@@ -131,11 +129,11 @@ Minglai Yang, **Xinyu Guo**, Zhengliang Shi, Jinhe Bi, Steven Bethard, Mihai Sur
 - *2023.09 - 2024.06:* Undergraduate Research Assistant, CAES Research Center, Shandong University. Advisor: Prof. Zhongxing Yu.
 
 # 🎖 Honors and Awards
-- *2026:* [Galileo Circle Scholarship](https://lpl.arizona.edu/graduate/awards/galileo/2024), University of Arizona
-- *2024, 2025:* Science Graduate College Fellowship, University of Arizona
-- *2022:* Academic Scholarship, Shandong University
-- *2020, 2021, 2022:* Entrepreneurial Practice Award, Shandong University
-- *2020:* Merit Award, 6th "Internet+" Innovation and Entrepreneurship Competition
+- *2026:* **[Galileo Circle Scholarship](https://lpl.arizona.edu/graduate/awards/galileo/2024)**, University of Arizona
+- *2024, 2025:* **Science Graduate College Fellowship**, University of Arizona
+- *2024:* **Outstanding Undergraduate Thesis Award**, Shandong University
+- *2023:* **Outstanding Graduate Student**, Shandong University
+- *2022:* **Academic Scholarship**, Shandong University
 
 # 🤝 Grants and Services
 - **Co-PI**, ABC SEED Grant, Arizona Astrobiology Center
