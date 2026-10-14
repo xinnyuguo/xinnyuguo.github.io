@@ -118,12 +118,14 @@ Minglai Yang, **Xinyu Guo**, Zhengliang Shi, Jinhe Bi, Steven Bethard, Mihai Sur
 - *2024 - now:* Ph.D. in Computer Science, University of Arizona, Tucson, AZ.
 - *2019 - 2023:* B.E. in Computer Science, Shandong University, Qingdao, China.
 
-# 💻 Research Experience
-- *2026 Summer:* Research Scientist Intern, [Abaka AI](https://www.abaka.ai).
-  - Built RL environments and post-training data for tool-using customer-service agents on τ²-bench, and trained call agents with RL ([RetailServe blog](https://www.abaka.ai/blog/retail-agent-training-data-retailserve)).
-  - Contributed to [Dr. DocBench](https://arxiv.org/abs/2606.01393), a benchmark for expert-level document parsing, and helped organize the [DocInsights 2026](https://docinsights-workshop.github.io/docinsights-2026/) workshop at EMNLP 2026.
+# 🔬 Research Experience
 - *2025.03 - now:* Research Assistant, CLU Lab, University of Arizona. Advisor: Prof. Mihai Surdeanu.
 - *2023.09 - 2024.06:* Undergraduate Research Assistant, CAES Research Center, Shandong University. Advisor: Prof. Zhongxing Yu.
+
+# 💻 Internships
+- *2026 Summer*, Research Scientist Intern, **[Abaka AI](https://www.abaka.ai)**.
+  - Built RL environments and post-training data for tool-using customer-service agents on τ²-bench, and trained call agents with RL ([RetailServe blog](https://www.abaka.ai/blog/retail-agent-training-data-retailserve)).
+  - Contributed to [Dr. DocBench](https://arxiv.org/abs/2606.01393), a benchmark for expert-level document parsing, and helped organize the [DocInsights 2026](https://docinsights-workshop.github.io/docinsights-2026/) workshop at EMNLP 2026.
 
 # 🎖 Honors and Awards
 - *2026:* **[Galileo Circle Scholarship](https://lpl.arizona.edu/graduate/awards/galileo/2024)**, University of Arizona
