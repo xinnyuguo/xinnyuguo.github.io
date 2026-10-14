@@ -123,7 +123,7 @@ Minglai Yang, **Xinyu Guo**, Zhengliang Shi, Jinhe Bi, Steven Bethard, Mihai Sur
 - *2023.09 - 2024.06:* Undergraduate Research Assistant, CAES Research Center, Shandong University. Advisor: Prof. Zhongxing Yu.
 
 # 💻 Internships
-- *2026 Summer*, Research Scientist Intern, **[Abaka AI](https://www.abaka.ai)**.
+- *2026.05 - 2026.10*, Research Scientist Intern, **[Abaka AI](https://www.abaka.ai)**, Mountain View, CA, USA.
   - Built RL environments and post-training data for tool-using customer-service agents on τ²-bench, and trained call agents with RL ([RetailServe blog](https://www.abaka.ai/blog/retail-agent-training-data-retailserve)).
   - Contributed to [Dr. DocBench](https://arxiv.org/abs/2606.01393), a benchmark for expert-level document parsing, and helped organize the [DocInsights 2026](https://docinsights-workshop.github.io/docinsights-2026/) workshop at EMNLP 2026.
 
