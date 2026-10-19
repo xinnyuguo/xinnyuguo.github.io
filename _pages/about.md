@@ -18,10 +18,10 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 I'm **Xinyu Guo**, a third-year Ph.D. student in Computer Science at the University of Arizona. I am fortunate to be advised by Prof. <a href="https://surdeanu.cs.arizona.edu/mihai/">Mihai Surdeanu</a> in the <a href="https://clulab.org/">CLU Lab</a>. Before that, I received my B.E. in Computer Science from Shandong University in 2023.
 
-My research focuses on **fine-grained supervision for LLM reasoning**. Outcome-level signals tell a model *whether* it reasoned well, but not *where*. I work on making this supervision fine-grained along two directions:
+My research focuses on **LLM-based reasoning**, along two directions:
 
-- **RL for reasoning quality**: training LLMs to produce reasoning that is accurate, concise, and aligned with human understanding. A key focus is **fine-grained credit assignment**: assigning credit to the specific phrases, tokens, and criteria responsible for a good response, using signals that are cheap to obtain, such as rewards derived from the model's own correct predictions or rubric-level scores that standard training discards. I also study how to keep these proxy rewards from being hacked ([CogRE](https://arxiv.org/abs/2510.06198), DVE, [Rubric Dropout](https://arxiv.org/abs/2608.11669)).
-- **Mechanisms of reasoning**: looking inside LLMs to find how concepts and their logical structure support reasoning, by aligning sparse autoencoder features with concepts and taxonomies ([AlignSAE](https://arxiv.org/abs/2512.02004), TaxoSAE).
+- **Fine-grained supervision**: outcome-level rewards tell a model *whether* it reasoned well, but not *where*. I design supervision that credits the specific phrases, tokens, and criteria behind good reasoning, using cheap signals such as rewards derived from the model's own correct predictions ([CogRE](https://arxiv.org/abs/2510.06198)) and rubric-level value estimation (DVE).
+- **Reasoning mechanisms**: looking inside LLMs to understand how concepts and their logical structure support reasoning, by aligning sparse autoencoder features with concepts ([AlignSAE](https://arxiv.org/abs/2512.02004)) and taxonomies (TaxoSAE).
 
 📄 [CV](/files/CV.pdf)
 
@@ -37,7 +37,7 @@ My research focuses on **fine-grained supervision for LLM reasoning**. Outcome-l
 
 # 📝 Publications
 
-## RL for Reasoning Quality
+## Fine-Grained Supervision
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Main</div><img src='images/cogre_fig1.png' alt="CogRE" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -64,19 +64,7 @@ Disentangled Value Estimation: Rethinking Scalar Critics in Rubric-Based RL
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='images/rubricdropout.png' alt="Rubric Dropout" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Rubric Dropout: A Simple Way to Mitigate Reward Hacking in Rubric-as-Reward RL](https://arxiv.org/abs/2608.11669)
-
-Minglai Yang, **Xinyu Guo**, Utkarsh Tyagi, Mian Zhang, Razvan Dumitru, Sunjie Hou, Yunzhong He, Daniel Yue Zhang, Ying Liu
-
-[**Paper**](https://arxiv.org/abs/2608.11669)
-- Shows that rubric-as-reward RL hacks out of distribution, and randomly drops rubric criteria at each step so no fixed criterion can be exploited.
-</div>
-</div>
-
-## Mechanisms of Reasoning
+## Reasoning Mechanisms
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/taxosae.png' alt="TaxoSAE" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -104,6 +92,7 @@ Minglai Yang, **Xinyu Guo**, Zhengliang Shi, Jinhe Bi, Steven Bethard, Mihai Sur
 
 ## Other Publications
 
+- [Rubric Dropout: A Simple Way to Mitigate Reward Hacking in Rubric-as-Reward RL](https://arxiv.org/abs/2608.11669), Minglai Yang, **Xinyu Guo**, Utkarsh Tyagi, Mian Zhang, Razvan Dumitru, Sunjie Hou, Yunzhong He, Daniel Yue Zhang, Ying Liu, *arXiv 2026*
 - From Copying to Composition: How Language Models Develop In-Context Learning, Minglai Yang, **Xinyu Guo**, Renxiong Wang, Daniel Yue Zhang, Yunzhong He, *Under Review*
 - RecuritOpsBench: When Agents Fail to Ask for the Information They Need, Yunze Xiao, Jienan Chen, **Xinyu Guo**, Minghao Liu, Zihan Wang, Weihao Xuan, *Under Review*
 - [Deep Research: A Systematic Survey](https://arxiv.org/abs/2512.02038), Zhengliang Shi, Yiqun Chen, Haitao Li, et al. (incl. **Xinyu Guo**), *arXiv 2025*
