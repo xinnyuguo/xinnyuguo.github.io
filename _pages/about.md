@@ -20,7 +20,7 @@ I'm **Xinyu Guo**, a third-year Ph.D. student in Computer Science at the Univers
 
 My research focuses on **LLM-based reasoning**, along two directions:
 
-- **Fine-grained supervision**: outcome-level rewards tell a model *whether* it reasoned well, but not *where*. I design supervision that credits the specific phrases, tokens, and criteria behind good reasoning, using cheap signals such as rewards derived from the model's own correct predictions ([CogRE](https://arxiv.org/abs/2510.06198)) and rubric-level value estimation (DVE).
+- **RL credit assignment for reasoning supervision**: outcome rewards tell a model *whether* it reasoned well, but not *where*. I assign credit at a finer granularity with signals that cost little extra: to the key phrases in a reasoning trace, using rewards derived from the model's own correct predictions ([CogRE](https://arxiv.org/abs/2510.06198)), and to the tokens responsible for each rubric criterion, using rubric-conditioned critics (DVE).
 - **Reasoning mechanisms**: looking inside LLMs to understand how concepts and their logical structure support reasoning, by aligning sparse autoencoder features with concepts ([AlignSAE](https://arxiv.org/abs/2512.02004)) and taxonomies (TaxoSAE).
 
 📄 [CV](/files/CV.pdf)
@@ -37,7 +37,7 @@ My research focuses on **LLM-based reasoning**, along two directions:
 
 # 📝 Publications
 
-## Fine-Grained Supervision
+## RL Credit Assignment for Reasoning Supervision
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">EMNLP 2026 Main</div><img src='images/cogre_fig1.png' alt="CogRE" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
