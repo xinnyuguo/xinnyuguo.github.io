@@ -23,7 +23,7 @@ My research focuses on **LLM-based reasoning**, along two directions:
 - **RL credit assignment for reasoning supervision**: outcome rewards tell a model *whether* it reasoned well, but not *where*. I assign credit at a finer granularity: to the key phrases in a reasoning trace, using rewards derived from the model's own correct predictions ([CogRE](https://arxiv.org/abs/2510.06198)), and to the tokens responsible for each rubric criterion, using rubric-conditioned critics (DVE).
 - **Reasoning mechanisms**: looking inside LLMs to understand how concepts and their logical structure support reasoning, by aligning sparse autoencoder features with concepts ([AlignSAE](https://arxiv.org/abs/2512.02004)) and taxonomies (TaxoSAE).
 
-📄 [CV](/files/CV.pdf)
+<div style="background:#fdf0ef; border-radius:8px; padding:12px 16px; margin:8px 0 4px;"><span style="color:#c0392b;"><strong>🔥 I am actively looking for Summer 2027 research internships!</strong></span> My interests lie in RL reasoning, though I am open to related directions. Please feel free to reach out if you think I'd be a good fit: <a href="mailto:xinyuguo@arizona.edu"><strong>xinyuguo@arizona.edu</strong></a>. <a href="/files/CV.pdf" style="white-space:nowrap; text-decoration:none; color:inherit;"><i class="fas fa-file-pdf" style="color:#c0392b;"></i> <strong>CV</strong></a></div>
 
 # 🔥 News
 - *2026.08:* &nbsp;🎉 "The Answer Lies Within: Self-Derived Rewards Enable Explainable Relation Extraction" (CogRE) is accepted to the **EMNLP 2026 Main Conference**!
