@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Xinyu Guo"
-description              : "LLM Reasoning · Reinforcement Learning · Interpretability"
+description              : "LLM Reasoning · Reinforcement Learning · Reasoning Mechanisms"
 repository               : "xinnyuguo/xinnyuguo.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,7 +24,7 @@ author:
   name             : "Xinyu Guo"
   avatar           : "images/personal_image.jpg"
   bio              : "Ph.D. student @UArizona, B.E. @SDU"
-  location         : "Tucson, Arizona"
+  location         : "Mountain View, CA"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=myYK2REAAAAJ"
