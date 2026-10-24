@@ -46,7 +46,7 @@ My research focuses on **LLM-based reasoning**, along two directions:
 
 **Xinyu Guo**, Zhengliang Shi, Minglai Yang, Mahdi Rahimi, Mihai Surdeanu
 
-[**Paper**](https://arxiv.org/abs/2510.06198) \| [**Code**](https://github.com/xinnyuguo/CogRE-Hit-at-Dict)
+[**PDF**](https://xinnyuguo.github.io/files/papers/CogRE.pdf) \| [**Code**](https://github.com/xinnyuguo/CogRE-Hit-Dict) \| [**arXiv**](https://arxiv.org/abs/2510.06198)
 - Identified two failure modes of LLMs on realistic one-shot relation extraction: attending to irrelevant tokens, and predicting relations at a granularity mismatched with human annotation schemas.
 - Proposed **Hit@Dict**, a self-derived intermediate RL reward that credits relation-bearing phrases in the reasoning trace, using a dictionary mined from the model's own correct explanations; no LLM judge needed.
 - Improved F1 by **+73.7%** (relative) over accuracy-only RL on one-shot NYT29 and human-rated explanation quality by **+54%**.
@@ -56,10 +56,11 @@ My research focuses on **LLM-based reasoning**, along two directions:
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/dve.png' alt="DVE" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-Disentangled Value Estimation: Rethinking Scalar Critics in Rubric-Based RL
+[Disentangled Value Estimation: Rethinking Scalar Critics in Rubric-Based RL](https://xinnyuguo.github.io/files/papers/DVE.pdf)
 
-**Xinyu Guo**, Zhengliang Shi, Minglai Yang, Chen Xu, Lingyong Yan
+**Xinyu Guo**, Minglai Yang, Chen Xu, Lingyong Yan
 
+[**PDF**](https://xinnyuguo.github.io/files/papers/DVE.pdf)
 - Identified a bottleneck in the critic model for rubric-based RL: the critic sees only the query and response prefix, yet is trained on a scalar reward that collapses many query-specific rubrics.
 - Proposed a shared critic conditioned on one rubric at a time that estimates per-rubric values and token-level advantages, aggregated with the rubric weights.
 - Outperformed PPO and GRPO in **13 of 15** model–benchmark settings (up to **+8.0 points** over PPO), with lower value error and advantages concentrated on rubric-relevant tokens.
@@ -73,7 +74,7 @@ Disentangled Value Estimation: Rethinking Scalar Critics in Rubric-Based RL
 
 Minglai Yang, **Xinyu Guo**, Utkarsh Tyagi, Mian Zhang, Razvan Dumitru, Sunjie Hou, Yunzhong He, Daniel Yue Zhang, Ying Liu
 
-[**Paper**](https://arxiv.org/abs/2608.11669)
+[**PDF**](https://xinnyuguo.github.io/files/papers/RubricDropout.pdf) \| [**arXiv**](https://arxiv.org/abs/2608.11669)
 - Showed that rubric-as-reward RL reward-hacks out of distribution: the training judge's score keeps rising while a stronger gold judge's score peaks and falls by **22 points** on ResearchQA.
 - Proposed Rubric Dropout, which randomly drops rubric criteria at every step, raising the out-of-distribution gold score by **+6–7 points** on ResearchQA with no in-domain cost.
 </div>
@@ -84,10 +85,11 @@ Minglai Yang, **Xinyu Guo**, Utkarsh Tyagi, Mian Zhang, Razvan Dumitru, Sunjie H
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/taxosae.png' alt="TaxoSAE" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-TaxoSAE: Rethinking Sparse Autoencoders through Taxonomic Logic
+[TaxoSAE: Rethinking Sparse Autoencoders through Taxonomic Logic](https://xinnyuguo.github.io/files/papers/TaxoSAE.pdf)
 
-**Xinyu Guo**, Minglai Yang, Zhengliang Shi, Clayton T. Morrison, Eduardo Blanco, Mihai Surdeanu
+**Xinyu Guo**, Minglai Yang, Clayton T. Morrison, Eduardo Blanco, Mihai Surdeanu
 
+[**PDF**](https://xinnyuguo.github.io/files/papers/TaxoSAE.pdf) \| [**Code**](https://github.com/xinnyuguo/T-sae)
 - Showed that existing SAEs learn a flat feature space, so concept readout lacks taxonomic consistency and control lacks the granularity to scope an edit.
 - Proposed TaxoSAE, which mirrors a taxonomy with stacked SAEs and a taxonomic alignment loss; only terminal concepts need supervision.
 - Improved hypernym readout of unseen abstract concepts by **+31.3 points** and swap success by **+25.5 points**; suppressing a concept removes only its own answers.
@@ -101,7 +103,7 @@ TaxoSAE: Rethinking Sparse Autoencoders through Taxonomic Logic
 
 Minglai Yang, **Xinyu Guo**, Zhengliang Shi, Jinhe Bi, Steven Bethard, Mihai Surdeanu, Liangming Pan
 
-[**Paper**](https://openreview.net/forum?id=I9UjKxW4nq) \| [**arXiv**](https://arxiv.org/abs/2512.02004)
+[**PDF**](https://xinnyuguo.github.io/files/papers/AlignSAE.pdf) \| [**Code**](https://github.com/yminglai/AlignSAE) \| [**OpenReview**](https://openreview.net/forum?id=I9UjKxW4nq)
 - Showed that unsupervised SAEs fragment human-defined concepts across many entangled features.
 - Proposed a "pre-train, then post-train" curriculum that binds each ontology concept to a dedicated latent slot.
 - Enabled reliable concept swaps (**94.8%**) and **9–∞×** better disentanglement than standard SAEs; used the aligned slots to probe multi-hop reasoning and grokking-like dynamics.
