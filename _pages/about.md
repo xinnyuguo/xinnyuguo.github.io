@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 I'm **Xinyu Guo**, a third-year Ph.D. student in Computer Science at the University of Arizona. I am fortunate to be advised by Prof. <a href="https://surdeanu.cs.arizona.edu/mihai/">Mihai Surdeanu</a> in the <a href="https://clulab.org/">CLU Lab</a>. Before that, I received my B.E. in Computer Science from Shandong University in 2023.
 
-Large language models increasingly reason through knowledge-intensive and open-ended tasks, such as multi-hop factual QA, and scientific and medical question answering. My research focuses on **LLM-based reasoning** in these settings, along two directions:
+Large language models increasingly reason through knowledge-intensive and open-ended tasks. My research focuses on **LLM-based reasoning** in these settings, along two directions:
 
 - **RL credit assignment for reasoning supervision**: credit assignment is key to RL for reasoning, which needs fine-grained credit beyond RLVR's outcome-only rewards. I tackle it from two angles: (1) *efficient intermediate rewards*, self-derived from the model's own correct reasoning without annotation or an LLM judge ([CogRE](https://arxiv.org/abs/2510.06198)); and (2) *from rewards to advantages*, disentangling the varying query-specific rubrics in critic learning to estimate per-rubric values and advantages (DVE).
 - **Reasoning mechanisms**: looking inside LLMs to understand how concepts and their logical structure support reasoning, by aligning sparse autoencoder features with concepts ([AlignSAE](https://arxiv.org/abs/2512.02004)) and taxonomies (TaxoSAE).
