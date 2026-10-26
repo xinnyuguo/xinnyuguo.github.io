@@ -2,6 +2,7 @@
 permalink: /
 title: ""
 excerpt: ""
+description: "Xinyu (Shirin) Guo is a Ph.D. student in Computer Science at the University of Arizona (CLU Lab, advised by Mihai Surdeanu), working on LLM reasoning, reinforcement learning credit assignment, and sparse autoencoders. Papers include CogRE (EMNLP 2026), AlignSAE (TMLR 2026), DVE, and TaxoSAE."
 author_profile: true
 redirect_from: 
   - /about/

@@ -6,7 +6,9 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Xinyu Guo"
+title                    : "Xinyu (Shirin) Guo | Ph.D. Student, University of Arizona"
+url                      : "https://xinnyuguo.github.io"
+baseurl                  : ""
 description              : "LLM Reasoning · Reinforcement Learning · Reasoning Mechanisms"
 repository               : "xinnyuguo/xinnyuguo.github.io"
 google_scholar_stats_use_cdn : true
