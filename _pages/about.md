@@ -22,11 +22,12 @@ I'm **Xinyu Guo**, a third-year Ph.D. student in Computer Science at the Univers
 Large language models increasingly reason through knowledge-intensive and open-ended tasks. My research focuses on **LLM-based reasoning** in these settings, along two directions:
 
 - **RL credit assignment for reasoning supervision**: credit assignment is key to RL for reasoning, which needs fine-grained credit beyond RLVR's outcome-only rewards. I tackle it from two angles: (1) *efficient intermediate rewards*, self-derived from the model's own correct reasoning without annotation or an LLM judge ([CogRE](https://arxiv.org/abs/2510.06198)); and (2) *from rewards to advantages*, disentangling the varying query-specific rubrics in critic learning to estimate per-rubric values and advantages (DVE).
-- **Reasoning mechanisms**: looking inside LLMs to understand how concepts and their logical structure support reasoning, by aligning sparse autoencoder features with concepts ([AlignSAE](https://arxiv.org/abs/2512.02004)) and taxonomies (TaxoSAE).
+- **Reasoning mechanisms**: looking inside LLMs to understand how concepts and their logical structure support reasoning, by aligning sparse autoencoder features with concepts ([AlignSAE](https://arxiv.org/abs/2512.02004)) and taxonomies ([TaxoSAE](https://arxiv.org/abs/2610.31894)).
 
 <div style="background:#fdf0ef; border-radius:8px; padding:12px 16px; margin:8px 0 4px;"><span style="color:#c0392b;"><strong>🔥 I am actively looking for Summer 2027 research internships!</strong></span> My interests lie in reinforcement learning for LLM reasoning, though I am open to related directions. Please feel free to reach out if you think I'd be a good fit: <a href="mailto:xinyuguo@arizona.edu"><strong>xinyuguo@arizona.edu</strong></a>. <a href="/files/CV.pdf" style="white-space:nowrap; text-decoration:none; color:inherit;"><i class="fas fa-file-pdf" style="color:#c0392b;"></i> <strong>CV</strong></a></div>
 
 # 🔥 News
+- *2026.10:* "TaxoSAE: Rethinking Sparse Autoencoders through Taxonomic Logic" is released on [arXiv](https://arxiv.org/abs/2610.31894).
 - *2026.08:* &nbsp;🎉 "The Answer Lies Within: Self-Derived Rewards Enable Explainable Relation Extraction" (CogRE) is accepted to the **EMNLP 2026 Main Conference**!
 - *2026.08:* &nbsp;🎉 "AlignSAE: Concept-Aligned Sparse Autoencoders" is accepted to **TMLR**!
 - *2026.08:* "Rubric Dropout: A Simple Way to Mitigate Reward Hacking in Rubric-as-Reward RL" is released on [arXiv](https://arxiv.org/abs/2608.11669).
@@ -86,11 +87,11 @@ Minglai Yang, **Xinyu Guo**, Utkarsh Tyagi, Mian Zhang, Razvan Dumitru, Sunjie H
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/taxosae.png' alt="TaxoSAE" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[TaxoSAE: Rethinking Sparse Autoencoders through Taxonomic Logic](https://xinnyuguo.github.io/files/papers/TaxoSAE.pdf)
+[TaxoSAE: Rethinking Sparse Autoencoders through Taxonomic Logic](https://arxiv.org/abs/2610.31894)
 
 **Xinyu Guo**, Minglai Yang, Clayton T. Morrison, Eduardo Blanco, Mihai Surdeanu
 
-[**PDF**](https://xinnyuguo.github.io/files/papers/TaxoSAE.pdf) \| [**Code**](https://github.com/xinnyuguo/T-sae)
+[**PDF**](https://xinnyuguo.github.io/files/papers/TaxoSAE.pdf) \| [**Code**](https://github.com/xinnyuguo/T-sae) \| [**arXiv**](https://arxiv.org/abs/2610.31894)
 - Showed that existing SAEs learn a flat feature space, so concept readout lacks taxonomic consistency and control lacks the granularity to scope an edit.
 - Proposed TaxoSAE, which mirrors a taxonomy with stacked SAEs and a taxonomic alignment loss; only terminal concepts need supervision.
 - Improved hypernym readout of unseen abstract concepts by **+31.3 points** and swap success by **+25.5 points**; suppressing a concept removes only its own answers.
@@ -138,7 +139,7 @@ Minglai Yang, **Xinyu Guo**, Zhengliang Shi, Jinhe Bi, Steven Bethard, Mihai Sur
 # 🔬 Research Experience
 - *2025.03 - now*, Graduate Research Assistant, **CLU Lab, University of Arizona**, Tucson, AZ.
   - Advisors: Prof. [Mihai Surdeanu](https://surdeanu.cs.arizona.edu/mihai/), Prof. [Clayton T. Morrison](https://ischool.arizona.edu/people/clayton-morrison), Prof. [Eduardo Blanco](https://eduardoblanco.github.io/).
-  - Research topics: NLP, LLM reasoning mechanisms. Publications: [CogRE](https://arxiv.org/abs/2510.06198) (EMNLP), [AlignSAE](https://openreview.net/forum?id=I9UjKxW4nq) (TMLR), TaxoSAE (under review).
+  - Research topics: NLP, LLM reasoning mechanisms. Publications: [CogRE](https://arxiv.org/abs/2510.06198) (EMNLP), [AlignSAE](https://openreview.net/forum?id=I9UjKxW4nq) (TMLR), [TaxoSAE](https://arxiv.org/abs/2610.31894) (under review).
 - *2023.09 - 2024.09*, Undergraduate Research Assistant, **CAES Research Center, Shandong University**, China. Advisor: Prof. [Zhongxing Yu](https://zhongxingyu.github.io/).
   - **C++ type conversion bugs**: built a dataset of **226** real-world type conversion bugs from **10** major C++ projects (e.g., V8, PyTorch, OpenCV, MySQL), summarized root-cause and fix patterns, and designed a tool to automatically detect and repair them.
   - **Code clone detection & repair** (undergraduate thesis): applied SemanticCodeBERT, which extends GraphCodeBERT with semantic flow graphs and five structure-aware pre-training tasks; outperformed GraphCodeBERT on BigCloneBench clone detection and Transformer baselines on Bug-Fixes code repair.
