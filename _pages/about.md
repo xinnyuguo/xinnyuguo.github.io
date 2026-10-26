@@ -131,9 +131,6 @@ Minglai Yang, **Xinyu Guo**, Zhengliang Shi, Jinhe Bi, Steven Bethard, Mihai Sur
 # 💻 Internships
 - *2026.05 - 2026.10*, Research Scientist Intern, **[Abaka AI](https://www.abaka.ai)**, Mountain View, CA.
   - **Agentic RL Training**: built an internal agentic RL training framework supporting MCP-based tool use and RL training; post-trained Qwen3-8B on **2K** synthesized tasks, raising Pass@1 on τ²-bench Retail from **31.6%** to **60.2%** ([RetailServe blog](https://www.abaka.ai/blog/retail-agent-training-data-retailserve)).
-  - **RL environments & task synthesis**: built a knowledge-grounded pipeline for scaling RL environment construction and task synthesis, where deep research and knowledge graphs supply the domain knowledge that guides both code agents in building environment software and the synthesis of training tasks.
-  - **Video QA pipeline**: built a large-scale audio-visual QA generation pipeline for multiple-choice and open-ended questions across **13** video domains, with multi-stage annotation, leakage and difficulty probing, and model-based verification.
-  - **Image QA pipeline**: constructed challenging image QA data requiring multi-step visual reasoning over real-world images, with hard distractors, adversarial validation, and no overlap with public test sets.
   - **Document parsing**: curated data and built the multi-model evaluation harness for [Dr. DocBench](https://arxiv.org/abs/2606.01393) (NeurIPS 2026 LCFM Workshop).
 
 # 🔬 Research Experience
