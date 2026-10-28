@@ -131,7 +131,7 @@ Minglai Yang, **Xinyu Guo**, Zhengliang Shi, Jinhe Bi, Steven Bethard, Mihai Sur
 # 💻 Internships
 - *2026.05 - 2026.10*, Research Scientist Intern, **[Abaka AI](https://www.abaka.ai)**, Mountain View, CA.
   - **Agentic RL Training**: built an internal agentic RL training framework supporting MCP-based tool use and RL training; post-trained Qwen3-8B on **2K** synthesized tasks, raising Pass@1 on τ²-bench Retail from **31.6%** to **60.2%** ([RetailServe blog](https://www.abaka.ai/blog/retail-agent-training-data-retailserve)).
-  - **Document parsing**: contributed to and helped organize [Dr. DocBench](https://arxiv.org/abs/2606.01393) (NeurIPS 2026 LCFM Workshop).
+  - **Document parsing**: contributed to [Dr. DocBench](https://arxiv.org/abs/2606.01393) (NeurIPS 2026 LCFM Workshop), and helped organize the Dr. DocBench challenge at the [DocInsights Workshop @ EMNLP 2026](https://docinsights-workshop.github.io/docinsights-2026/).
 
 # 🔬 Research Experience
 - *2025.03 - now*, Graduate Research Assistant, **CLU Lab, University of Arizona**, Tucson, AZ.
