@@ -135,7 +135,7 @@ Minglai Yang, **Xinyu Guo**, Zhengliang Shi, Jinhe Bi, Steven Bethard, Mihai Sur
 
 # 🔬 Research Experience
 - *2025.03 - now*, Graduate Research Assistant, **CLU Lab, University of Arizona**, Tucson, AZ.
-  - Advisors: Prof. [Mihai Surdeanu](https://surdeanu.cs.arizona.edu/mihai/), Prof. [Clayton T. Morrison](https://ischool.arizona.edu/people/clayton-morrison), Prof. [Eduardo Blanco](https://eduardoblanco.github.io/).
+  - Advisors: Prof. [Mihai Surdeanu](https://surdeanu.cs.arizona.edu/mihai/), Prof. [Eduardo Blanco](https://eduardoblanco.github.io/), Prof. [Clayton T. Morrison](https://ischool.arizona.edu/people/clayton-morrison).
   - Research topics: NLP, LLM reasoning mechanisms. Publications: [CogRE](https://arxiv.org/abs/2510.06198) (EMNLP), [AlignSAE](https://openreview.net/forum?id=I9UjKxW4nq) (TMLR), [TaxoSAE](https://arxiv.org/abs/2610.31894) (under review).
 - *2023.09 - 2024.09*, Undergraduate Research Assistant, **CAES Research Center, Shandong University**, China. Advisor: Prof. [Zhongxing Yu](https://zhongxingyu.github.io/).
   - **C++ type conversion bugs**: built a dataset of **226** real-world type conversion bugs from **10** major C++ projects (e.g., V8, PyTorch, OpenCV, MySQL), summarized root-cause and fix patterns, and designed a tool to automatically detect and repair them.
